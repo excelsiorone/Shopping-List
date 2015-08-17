@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<title>Shopping List</title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.js" charset="utf-8"></script>
 	<link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="css/list.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	<title>Shopping List</title>
+	<script src="js/function.js"></script>
 </head>
 <body>
 	<div id="container">
@@ -20,10 +22,16 @@
 			</h2>
 			<hr>
 		</div>
-		<button type="reset">Reset</button>
 		<div id="center">
+		<button id="reset" type="reset">Reset</button>
 			<p class="reset-text">Click on Reset to startover</p>
-
+			<form>
+			<input class="add-items" type="text" placeholder="Add Items">
+			<input type = "submit">
+		</form>
+			<ul>
+				</ul>
+		</div>
 	</div>
 </body>
 </html>

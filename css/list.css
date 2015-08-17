@@ -464,7 +464,7 @@ hr {
  height: 5px;
  width: 75px;
 }
-button {
+#reset {
 	text-align: center;
 	background-color: #F51511;
 	border: none;
@@ -474,6 +474,22 @@ button {
 }
  .reset-text {
 	margin-top: 10px;
+}
+.add-items {
+  border-radius: 10px;
+  border: none;
+  width: 25%;
+  text-align: center;
+  background-color: #05EB46;
+  font-size: 12pt;
+  margin-top: 10px;
+}
+.items-text {
+  margin-top: 10px;
+}
+ul {
+  list-style: none;
+  width: 100%;
 }
 body {
     background-color: LightGray;
